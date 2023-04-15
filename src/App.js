@@ -66,7 +66,7 @@ import Todo from './components/Todo'
   return (
     <div>
       <h1 style={myStyle}>Todo List</h1>
-      <h3>A simple To-do application that keeps track of a lists of task to be completed daily. The app holds this piece of information and does not clear them even after a page refresh, until the next day when it will automatically clear the input feilds.</h3>
+      <h3>A Basic todo App.</h3>
       <h3>Time: {todos.length > 0 && todos[0].timeUpdated}</h3>
       <table>
         <tbody>
