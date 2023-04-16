@@ -65,8 +65,8 @@ import Todo from './components/Todo'
     };
   return (
     <div>
-      <h1 style={myStyle}>Todo List</h1>
-      <h3>A Basic todo App.</h3>
+      <h1 style={myStyle}>My Todo List</h1>
+      <h3>A Basic Todo App.</h3>
       <h3>Time: {todos.length > 0 && todos[0].timeUpdated}</h3>
       <table>
         <tbody>

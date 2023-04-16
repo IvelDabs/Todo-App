@@ -1,0 +1,18 @@
+/* Default styles for smaller screens */
+body {
+  font-size: 16px;
+}
+
+/* Styles for screens with a minimum width of 768px (tablets) */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1024px (desktops) */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
